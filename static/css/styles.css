@@ -16,7 +16,12 @@
 }
 
 .list{
-    background-color:rgb(255, 225, 170);
+    background-color:rgba(255, 222, 125, 0.368);
+    border: 1px solid ;
+}
+
+.list.strong{
+    border: 0px;
 }
 
 img {
@@ -24,5 +29,6 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    height: 50%;
     border: 5px solid rgba(255, 255, 255, 0.464);
 }
