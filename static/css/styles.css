@@ -25,6 +25,18 @@
     border: 0px;
 }
 
+.recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.recipe-list p {
+    text-align: center;
+    flex: 1;
+    border: 2px solid firebrick;
+}
+
 img {
     display: block;
     margin-left: auto;
